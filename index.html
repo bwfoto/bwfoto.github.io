@@ -1,109 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>BWFoto.RU</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:image" content="images/logo_bwfoto.png">
+  <meta name="description" content="Классическая бромо-серебрянная черно-белая фотография. Пленочный фотоаппарат. Фотопленка.">
+  <link rel="icon" href="images/favicon.ico">
+
+  <base href="/">
+
+  <title>BWFoto.ru - черно-белая фотография</title>
+
+  <link href="css/main.min.css" rel="stylesheet">
+
 </head>
 
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter676884 = new Ya.Metrika({
-                    id:676884,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/676884" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
-
-
-<style>
-
-html,body {
-	margin:0;
-	padding:0;
-	background-color:#fff;
-	width:100%;
-
-}
-
-.wrapper{
-	overflow: hidden;
-	position:fixed;
-	top:0;
-	right:0;
-	bottom:0;
-	left:0;	
-}
-.item {
-	position:absolute;
-	top:45%;
-	left:50%;
-	display:inline-block;	
-}
-.item img {
-	margin: -50% 0 0 -50%;
-}
-
-.header {
-	top: 0px;
-	position: fixed;
-
-	height:0px;
-	width:100%;
-}
-.footer {
-	bottom: 0px;
-	position: fixed;
-
-	height:0px;
-	width:100%;
-}
-.container {
-	margin: 10% 0 40% 20%;
-}
-.logo {
-	margin: 23% 0% 0% 26%;
-}
-
-
-</style>
-
 <body>
+  <div class="oblast">
+    <header class="header solid-line">
+    <div class="container-fluid">
 
-<div class="header">
-<div class="logo"></div>
-</div>
+        <p class="logoswg">bwfoto</p>
 
-<div id="wrapper">
-<div class="item">
-<img src="./img/wood2.png" alt="" width="650">
-<div class="container"><img src="./img/text.png" alt="" width="250"></div>
-</div>
-</div>
+        <!-- <nav>
+        <ul>
+            <li><a href="#">About-1</a></li>
+            <li><a href="#">About-2</a></li>
+            <li><a href="#">About-3</a></li>
+            <li><a href="#">About-4</a></li>
+        </ul>
+    </nav> -->
+    </div>
 
-<div class="footer"></div>
+</header> 
+    <section class="photo">
+    <div class="container-fluid">
+
+        <div class="img-index animated zoomIn">
+            <img src="images/wood.png" alt="Фотограия сделанная на черно-белую пленку." class="img-responsive">
+        </div>
+
+    </div>
+
+</section>
+
+<section class="imagetext animated bounceInUp">
+    <div class="row justify-content-center">
+        <div class="col col-sm-auto txt-site-logo">
+            <p class="desc1">BWFOTO.RU</p>
+            <p class="desc2 and-txt">BLACK and WHITE</p>
+            <p class="desc3">PHOTOGRAPHY</p>
+        </div>
+    </div>
+
+</section>
+    <footer class="footer">
+    <div class="container-fluid">
+
+    </div>
+</footer>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/scripts.min.js"></script>
 
 
 </body>
+
 </html>
