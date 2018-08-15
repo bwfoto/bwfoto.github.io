@@ -1,3 +1,4 @@
+--- ---
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -6,95 +7,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:image" content="images/logo_bwfoto.png">
-  <meta name="description" content="Классическая бромо-серебрянная черно-белая фотография. Пленочный фотоаппарат. Фотопленка.">
-  <link rel="icon" href="images/favicon.ico">
+  <meta property="og:image" content="{{ site.imagehome }}">
+  <meta name="description" content="{{ site.description }}">
+  <link rel="icon" href="{{ site.favicon }}">
 
   <base href="/">
 
-  <title>BWFoto.ru - черно-белая фотография</title>
+  <title>{{ site.title }}</title>
 
-  <link href="css/main.min.css" rel="stylesheet">
-
-    <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter676884 = new Ya.Metrika({
-                    id:676884,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/676884" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+  <link href="css/main.min.css" rel="stylesheet"> {% include metrika.html %}
 </head>
 
 <body>
-  <div class="oblast">
-    <header class="header solid-line">
-    <div class="container-fluid">
 
-        <p class="logoswg">bwfoto</p>
+  {% include header.html %} {% include default.html %} {% include footer.html %}
 
-        <!-- <nav>
-        <ul>
-            <li><a href="#">About-1</a></li>
-            <li><a href="#">About-2</a></li>
-            <li><a href="#">About-3</a></li>
-            <li><a href="#">About-4</a></li>
-        </ul>
-    </nav> -->
-    </div>
-
-</header> 
-    <section class="photo">
-    <div class="container-fluid">
-
-        <div class="img-index animated zoomIn">
-            <img src="images/wood.png" alt="Фотограия сделанная на черно-белую пленку." class="img-responsive">
-        </div>
-
-    </div>
-
-</section>
-
-<section class="imagetext animated bounceInUp">
-    <div class="row justify-content-center">
-        <div class="col col-sm-auto txt-site-logo">
-            <p class="desc1">BWFOTO.RU</p>
-            <p class="desc2 and-txt">BLACK and WHITE</p>
-            <p class="desc3">PHOTOGRAPHY</p>
-        </div>
-    </div>
-
-</section>
-    <footer class="footer">
-    <div class="container-fluid">
-
-    </div>
-</footer>
-
-  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/scripts.min.js"></script>
-
 
 </body>
 
