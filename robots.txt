@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /index.html
+Disallow:
 Host: bwfoto.ru
 Sitemap: https://bwfoto.ru/sitemap.xml
