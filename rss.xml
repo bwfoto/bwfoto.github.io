@@ -1,0 +1,30 @@
+<rss
+    xmlns:yandex="http://news.yandex.ru"
+    xmlns:media="http://search.yahoo.com/mrss/"
+    xmlns:turbo="http://turbo.yandex.ru"
+    version="2.0"
+>
+    <channel>
+        <item turbo="true">
+           <link>https://www.bwfoto.ru/index.html</link>
+           <turbo:content>
+               <![CDATA[
+                   <header>
+                       <h1>BWFoto.ru - черно-белая фотография</h1>
+                   </header>
+                   <p>Классическая<b>черно-белая</b> фотография</p>
+                   <ul>
+                       <li>BWFOTO.RU</li>
+                       <li>BLACK and WHITE</li>
+                       <li>PHOTOGRAPHY</li>
+                  </ul>
+                  <figure>
+                      <img src="https://bwfoto.ru/images/wood.png" alt="Фотограия сделанная на черно-белую пленку.">
+
+                      <figcaption>Фотограия сделанная на черно-белую пленку.</figcaption>
+                  </figure>
+               ]]>
+           </turbo:content>
+        </item>
+    </channel>
+</rss> 
