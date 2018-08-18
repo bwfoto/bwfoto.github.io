@@ -11,19 +11,18 @@
            <turbo:content>
                <![CDATA[
                    <header>
-                       <h1>BWFoto.ru - черно-белая фотография</h1>
+                       <h1>BWFOTO.RU - черно-белая фотография</h1>
                    </header>
+                  <figure>
+                      <img src="https://bwfoto.ru/images/wood.png">
+                      <figcaption>Фотограия сделанная на черно-белую пленку.</figcaption>
+                  </figure>
                    <p>Классическая<b>черно-белая</b> фотография</p>
                    <ul>
                        <li>BWFOTO.RU</li>
                        <li>BLACK and WHITE</li>
                        <li>PHOTOGRAPHY</li>
                   </ul>
-                  <figure>
-                      <img src="https://bwfoto.ru/images/wood.png">
-
-                      <figcaption>Фотограия сделанная на черно-белую пленку.</figcaption>
-                  </figure>
                ]]>
            </turbo:content>
         </item>
