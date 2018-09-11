@@ -2,99 +2,114 @@
 <html lang="ru">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="all"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all"/>
 
-  <meta property="og:image" content="images/logo_bwfoto.png">
-  <meta name="description" content="Классическая бромо-серебрянная черно-белая фотография. Пленочный фотоаппарат. Фотопленка.">
-  <link rel="shortcut icon" href="http://bwfoto.ru/favicon.ico" type="image/x-icon">
+    <meta property="og:image" content="images/logo_bwfoto.png">
+    <meta name="description" content="Классическая бромо-серебрянная черно-белая фотография. Пленочный фотоаппарат. Фотопленка.">
+    <link rel="shortcut icon" href="http://bwfoto.ru/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="http://bwfoto.ru/apple-touch-icon.png">
 
-  <base href="/">
+    <base href="/">
 
-  <title>BWFoto.ru - черно-белая фотография</title>
+    <title>BWFOTO.RU - Черно-белая фотография</title>
 
-  <link rel="stylesheet" href="css/main.min.css">
+    <link href="css/main.min.css" rel="stylesheet">
 
-  <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter676884 = new Ya.Metrika({
-                    id:676884,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/676884" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+    {% include metrika.html %}
 
 </head>
 
-<body>
+<body class="fscreen">
 
-  <header class="header solid-line">
-    <div class="container-fluid">
+    <div id="my-page">
 
-        <p class="logoswg">bwfoto</p>
+        <div id="my-header">
 
-        <!-- <nav>
+            <header id="header" class="bw-header" >
+
+                <div class="bw-menu">
+
+    <div class="solid-line"></div>
+
+    <a class="logoswg" href="#">
+        <h1 class="h1">bwfoto</h1>
+    </a>
+    <span class="arrow-menu">меню<i class="fa fa-caret-right" aria-hidden="true"></i></span>
+    <a href="#my-menu" class="hamburger hamburger--spring">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </a>
+    <nav id="my-menu" class="main-menu top-menu">
         <ul>
-            <li><a href="#">About-1</a></li>
-            <li><a href="#">About-2</a></li>
-            <li><a href="#">About-3</a></li>
-            <li><a href="#">About-4</a></li>
+            <li>
+                <a href="#">О сайте</a>
+            </li>
+            <li>
+                <a href="#">Галерея</a>
+            </li>
+            <li>
+                <a href="#">Контакты</a>
+            </li>
         </ul>
-    </nav> -->
-    </div>
+    </nav>
+</div>
 
-</header>
-  <section class="photo">
-    <div class="row justify-content-center">
+                <div class="bw-cont">
+    <div class="bw-cont-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
 
-        <div class="img-index animated zoomIn">
-            <img src="images/wood.png" alt="Фотограия сделанная на черно-белую пленку." class="img-responsive">
+                    <div class="bw-viz">
+
+                        <div class="woodland animated zoomIn">
+                            <img src="images/woodland.png" alt="Фотограия сделанная на черно-белую пленку." class="img-responsive">
+                        </div>
+
+                        <div class="brand animated bounceInUp">
+                            <p class="desc1">BWFOTO.RU</p>
+                            <p class="desc2 and-txt">BLACK and WHITE</p>
+                            <p class="desc3">PHOTOGRAPHY</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
         </div>
 
     </div>
+</div>
 
-</section>
 
-<section class="imagetext animated bounceInUp">
-    <div class="row justify-content-center">
-        <div class="txt-site-logo">
-            <p class="desc1">BWFOTO.RU</p>
-            <p class="desc2 and-txt">BLACK and WHITE</p>
-            <p class="desc3">PHOTOGRAPHY</p>
+                <div class="bw-footer">
+
+    COPYRIGHT © 2018 | Site v1.0.3
+
+</div>
+
+            </header>
+
         </div>
+
+        <div id="my-content">
+
+        </div>
+
+        <div id="my-footer">
+
+        </div>
+
+
     </div>
 
-</section>
-  <footer class="footer">
-    <div class="container-fluid">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    </div>
-</footer>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="js/scripts.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 
 </body>
 

@@ -7,24 +7,25 @@
 >
     <channel>
         <item turbo="true">
-           <link>https://bwfoto.ru</link>
+           <link>https://bwfoto.ru/index.html</link>
            <turbo:content>
                <![CDATA[
                    <header>
-                       <h1>BWFOTO.RU - С‡РµСЂРЅРѕ-Р±РµР»Р°СЏ С„РѕС‚РѕРіСЂР°С„РёСЏ</h1>
+                       <h1>BWFoto.ru - черно-белая фотография</h1>
                    </header>
-                  <figure>
-                      <img src="https://bwfoto.ru/images/wood.png">
-                      <figcaption>Р¤РѕС‚РѕРіСЂР°РёСЏ СЃРґРµР»Р°РЅРЅР°СЏ РЅР° С‡РµСЂРЅРѕ-Р±РµР»СѓСЋ РїР»РµРЅРєСѓ.</figcaption>
-                  </figure>
-                   <p>РљР»Р°СЃСЃРёС‡РµСЃРєР°СЏ<b>С‡РµСЂРЅРѕ-Р±РµР»Р°СЏ</b> С„РѕС‚РѕРіСЂР°С„РёСЏ</p>
+                   <p>Классическая<b>черно-белая</b> фотография</p>
                    <ul>
                        <li>BWFOTO.RU</li>
                        <li>BLACK and WHITE</li>
                        <li>PHOTOGRAPHY</li>
                   </ul>
+                  <figure>
+                      <img src="https://bwfoto.ru/images/wood.png">
+
+                      <figcaption>Фотограия сделанная на черно-белую пленку.</figcaption>
+                  </figure>
                ]]>
            </turbo:content>
         </item>
     </channel>
-</rss>
+</rss> 
