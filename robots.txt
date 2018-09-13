@@ -1,4 +1,18 @@
 User-agent: *
-Disallow: /index.html
-Host: bwfoto.ru
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
 Sitemap: https://bwfoto.ru/sitemap.xml
+
+Sitemap: http://bwfoto.ru/sitemap.xml
+
+Sitemap: https://www.bwfoto.ru/sitemap.xml
+
+Sitemap: http://www.bwfoto.ru/sitemap.xml
+
+Host: https://bwfoto.ru
