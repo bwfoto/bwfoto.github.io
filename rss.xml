@@ -11,18 +11,18 @@
            <turbo:content>
                <![CDATA[
                    <header>
-                       <h1>BWFoto.ru - Чёрно-белая фотография</h1>
+                       <h1>BWFoto.ru - Черно-белая фотография</h1>
                    </header>
-                   <p>Классическая<b> чёрно-белая</b> фотография</p>
+                   <p>Классическая<b>черно-белая</b> фотография</p>
                    <ul>
                        <li>BWFOTO.RU</li>
                        <li>BLACK and WHITE</li>
                        <li>PHOTOGRAPHY</li>
                   </ul>
                   <figure>
-                      <img src="https://bwfoto.ru/images/woodland.png">
+                      <img src="https://bwfoto.ru/images/wood.png">
 
-                      <figcaption>Плёночный фотоаппарат. Чёрно-белая фотопленка. Фотография.</figcaption>
+                      <figcaption>Пленочный фотоаппарат. Черно-белая фотопленка. Фотография.</figcaption>
                   </figure>
                ]]>
            </turbo:content>
