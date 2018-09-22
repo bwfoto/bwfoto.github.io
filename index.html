@@ -16,8 +16,6 @@
 
     <title>BWFOTO.RU - Черно-белая фотография</title>
 
-    <link href="css/main.min.css" rel="stylesheet">
-
     <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
     (function (d, w, c) {
@@ -48,9 +46,50 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/676884" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
+    <style>body { opacity: 0; overflow-x: hidden; } html { background-color: #303035 } </style>
+
 </head>
 
 <body class="fscreen">
+
+        <div class="preloader">
+    <div class="proyavka">
+
+        <div id="rotate">
+            <div class="circle-1">
+                <div></div>
+            </div>
+        </div>
+        <div id="rotate">
+            <div class="circle-2">
+                <div></div>
+            </div>
+        </div>
+        <div id="rotate">
+            <div class="circle-3">
+                <div></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="puls-text">
+                <div>Про-</div>&#160 явка
+            </div>
+            <div class="cam">
+
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="135px" height="135px" version="1.1"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    viewBox="0 0 660 660" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                    <g id="Layer_x0020_1">
+
+                        <path class="fil0" d="M425 234c43,-46 103,-73 166,-74 0,-47 0,-94 0,-142l-91 0c-25,72 -49,145 -75,216zm-101 -167l0 -5c0,-1 -1,-2 -2,-2l-179 0c-1,0 -2,1 -2,2l0 5 183 0zm-194 0l0 -5c0,-7 6,-14 13,-14l179 0c7,0 13,7 13,14l0 5c8,2 15,6 19,13l109 0 26 -72c41,0 81,0 122,0l0 152 0 15c-5,0 -10,-1 -16,-1 -60,0 -114,25 -153,64 -40,39 -64,94 -64,154 0,57 23,113 64,153 39,40 93,64 153,64 6,0 11,0 16,-1l0 15 0 29c-173,0 -337,0 -511,0 -30,0 -51,-31 -51,-61 0,-133 0,-266 0,-399 0,-30 21,-51 51,-51l21 0 0 -19c-11,-4 -19,-15 -19,-27 1,-15 12,-28 28,-28zm228 33c-2,14 -14,24 -28,24l-199 0 0 17 309 0 15 -41 -97 0zm-28 -18l-199 0c-8,0 -14,6 -14,13 0,8 6,14 14,14l199 0c8,0 14,-6 14,-14 0,-7 -6,-13 -14,-13zm261 541c-42,0 -81,-12 -114,-32l-418 0c0,30 21,41 41,41l491 0 0 -9zm-130 -42c-11,-8 -20,-16 -30,-25 -42,-42 -67,-100 -67,-164 0,-6 0,-11 0,-16l-131 -30 -20 -52 175 -10c9,-23 14,-40 22,-61l-351 0 0 358 402 0zm-96 -215c3,-22 7,-42 15,-61l-147 0 10 30 122 31zm71 -215l-336 0c-20,0 -41,21 -41,41l0 10 359 0 18 -51z" />
+                        <polygon class="fil1" points="660,0 0,0 0,660 660,660 " />
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>
 
     <div id="my-page">
 
@@ -71,7 +110,7 @@
             <span class="hamburger-inner"></span>
         </span>
     </a>
-    <nav id="my-menu" class="main-menu top-menu">
+    <nav id="my-menu">
 
         <!-- menu files in folder _data -->
 
@@ -85,7 +124,7 @@
                     
                     </li>
                     
-                    <li><a href="#mm-1">галерея</a>
+                    <li><a href="#mm-2">галерея</a>
                     
                     <ul>
                         
@@ -121,11 +160,11 @@
 
                     <div class="bw-viz">
 
-                        <div class="woodland animated zoomIn">
+                        <div class="woodland animated zoomIn delay-7s">
                             <img src="images/woodland.png" alt="Фотограия сделанная на черно-белую пленку." class="img-responsive">
                         </div>
 
-                        <div class="brand animated bounceInUp">
+                        <div class="brand animated fadeInLeft delay-7s">
                             <p class="desc1">BWFOTO.RU</p>
                             <p class="desc2 and-txt">BLACK and WHITE</p>
                             <p class="desc3">PHOTOGRAPHY</p>
@@ -164,6 +203,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+
+    <link rel="stylesheet" href="css/main.min.css">
     <script src="js/scripts.min.js"></script>
 
 </body>
